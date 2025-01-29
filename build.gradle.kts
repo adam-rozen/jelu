@@ -51,6 +51,8 @@ dependencies {
     // implementation("com.unboundid:unboundid-ldapsdk:6.0.5")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+    implementation("com.azure.spring:spring-cloud-azure-starter-active-directory") // required for azure as oauth2 client
+
     implementation("org.apache.httpcomponents.client5:httpclient5")
 
     implementation("com.github.ben-manes.caffeine:caffeine")
